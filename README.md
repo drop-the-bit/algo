@@ -1,24 +1,3 @@
 ## Algo
 
 알고리즘 공부용 Repo
-
-## test
-
-{% for col in site.collections %}
-{{col.relative_directory}}
-{% endfor %}
-
-## Solutions
-
-<details>
-  <summary>
-      무성      
-  </summary>
-{% for ms in site.moosung %}
-  1, {{ms.url}}
-{% endfor %}
-  
-  {% for ms in site.collections.moosung %}
-  {{ms.url}}
-{% endfor %}
-</details>
