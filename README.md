@@ -15,10 +15,10 @@
       무성      
   </summary>
 {% for ms in site.moosung %}
-  1, {{ms.name}}
+  1, {{ms.url}}
 {% endfor %}
   
   {% for ms in site.collections.moosung %}
-  1, {{ms.name}}
+  {{ms.url}}
 {% endfor %}
 </details>
