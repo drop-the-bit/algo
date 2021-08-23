@@ -17,4 +17,8 @@
 {% for ms in site.moosung %}
   1, {{ms.name}}
 {% endfor %}
+  
+  {% for ms in site.collections.moosung %}
+  1, {{ms.name}}
+{% endfor %}
 </details>
