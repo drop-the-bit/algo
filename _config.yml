@@ -1,8 +1,0 @@
-theme: jekyll-theme-minimal
-
-collections_dir: solutions
-collections:
-  moosung:
-    permalink: "/:collection/:path/"
-    output: true
-  
