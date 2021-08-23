@@ -15,6 +15,6 @@
       무성      
   </summary>
 {% for ms in site.moosung %}
-  {{ms.name}}
+  1, {{ms.name}}
 {% endfor %}
 </details>
