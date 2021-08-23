@@ -3,11 +3,12 @@
 
 ## Solutions
 {% for ms in site.moosung %}
-1. {{ms.title}}    
-      - mw
-      - mg 
-      - ms
-      - yr
+<details>
+      <summary>
+      무성      
+      </summary>
+      {{ms.name}}
+</details>
 
 {% endfor %}
 
