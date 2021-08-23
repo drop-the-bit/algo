@@ -2,6 +2,6 @@ theme: jekyll-theme-minimal
 
 collections_dir: solutions
 collections:
-  ms:
+  moosung:
     output: true
   
