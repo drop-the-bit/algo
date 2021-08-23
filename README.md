@@ -3,11 +3,11 @@
 
 ## Solutions
 {% for solution in page.collection.solutions %}
-1. {{solution.title}}
-  - mw
-  - mg 
-  - ms
-  - yr
+1. {{solution.title}}    
+      - mw
+      - mg 
+      - ms
+      - yr
 
 {% endfor %}
 
