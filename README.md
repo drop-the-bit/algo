@@ -2,8 +2,8 @@
 알고리즘 공부용 Repo
 
 ## Solutions
-{% for solution in site.solutions %}
-1. {{solution.title}}    
+{% for ms in site.moosung %}
+1. {{ms.title}}    
       - mw
       - mg 
       - ms
